@@ -1,11 +1,38 @@
 .App {
-    --header_height: 60px;
+    /*--header_height: 60px;*/
+    background-color: #FFFFFF;
+    border-bottom: 1px solid;
+
+
+    /*position: relative;*/
 }
 
+
+
 .hw {
+
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+
+
+
+    max-width: 1280px;
+    margin: 0 auto;
+
 
 }
 
 .hwTitle {
-
+    font-weight: 600;
+    font-size: 22px;
+    height: 168px;
+    border-bottom: 1px solid;
+    position: static;
+    padding-left: 70px;
+    padding-top: 131px;
+    background-color: #FFFFFF;
+}
+:root {
+    background-color:#FFFFFF;
 }
