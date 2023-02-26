@@ -1,7 +1,8 @@
 .App {
     /*--header_height: 60px;*/
     background-color: #FFFFFF;
-    border-bottom: 1px solid;
+
+    margin-top: 70px;
 
 
     /*position: relative;*/
@@ -14,10 +15,17 @@
     background-color: #FFFFFF;
     display: flex;
     flex-direction: column;
+    border-bottom: 1px solid #D9D9D9;
+    border-top: 1px solid #D9D9D9;
+
+    padding-top:37px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 73px;
 
 
 
-    max-width: 1280px;
+    max-width: 100%;
     margin: 0 auto;
 
 
@@ -26,12 +34,13 @@
 .hwTitle {
     font-weight: 600;
     font-size: 22px;
-    height: 168px;
-    border-bottom: 1px solid;
+    height: 74px;
+
     position: static;
     padding-left: 70px;
-    padding-top: 131px;
+    padding-top: 37px;
     background-color: #FFFFFF;
+
 }
 :root {
     background-color:#FFFFFF;
