@@ -1,7 +1,8 @@
 .App {
+    --header_height: 60px;
     background-color: #FFFFFF;
-    margin-top: 70px;
 }
+
 
 .hw {
     background-color: #FFFFFF;
@@ -26,6 +27,7 @@
     padding-left: 70px;
     padding-top: 37px;
     background-color: #FFFFFF;
+
 }
 
 :root {
