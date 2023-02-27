@@ -7,8 +7,6 @@
 .friendImageAndText {
     display: flex;
     flex-direction:row;
-
-
 }
 
 .friendImageAndText img {
@@ -26,8 +24,6 @@
     position: relative;
     margin-left: 20px;
     margin-bottom:5px;
-
-
 }
 
 .friendText:after {
@@ -63,6 +59,5 @@
     font-size: 10px;
     line-height: 12px;
     padding-left: 11px;
-
     color: #000000;
 }

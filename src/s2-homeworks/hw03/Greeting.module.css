@@ -31,7 +31,6 @@
     border-radius: 5px;
     width: 372px;
     height: 36px;
-
 }
 
 .button {
@@ -42,7 +41,6 @@
     height: 36px;
     color: #FFFFFF;
     margin-left: 12px;
-
 }
 
 .button:focus {
@@ -70,13 +68,8 @@
     font-weight: 500;
     font-size: 14px;
     line-height: 17px;
-
-    /* identical to box height */
-
     color: #000000;
     width: 144px;
     height: 17px;
     padding-top: 7px;
-
-
 }
