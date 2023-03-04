@@ -1,5 +1,17 @@
 .select {
+    background-color: transparent;
+    border: 1px solid #c2c2c2;
+    border-radius: 2px;
+    color: inherit;
+    cursor: pointer;
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    height: 24px;
+    padding-left: 10px;
+    width: 165px;
 }
+
 
 .select:focus {
 }
