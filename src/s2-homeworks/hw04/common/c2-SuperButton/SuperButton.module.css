@@ -1,9 +1,21 @@
 .button {
-    min-width: 132px;
+    /*min-width: 132px;
     height: 30px;
     border-radius: 3px;
     border: 0;
-    margin-right: 24px;
+    margin-right: 24px;*/
+
+
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    cursor: pointer;
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    overflow: hidden;
+    padding: 5px 24px;
 }
 
 .disabled {
@@ -28,10 +40,17 @@
 }
 
 .secondary {
-    border: 1px solid #0066CC;
+    /*border: 1px solid #0066CC;
     border-radius: 3px;
     color: #0066CC;
-    min-width: 176px;
+    min-width: 176px;*/
+
+    background: transparent;
+    border: 1px solid #06c;
+    border-radius: 3px;
+    color: #06c;
+
+
 
 }
 

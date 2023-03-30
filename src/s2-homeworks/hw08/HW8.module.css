@@ -1,23 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
 .item {
+
+    height: 47px;
+    border-bottom: 1px solid #E5E5E5;
 }
 
 .item:last-of-type {
+
 }
 
 .users {
+
+    border-collapse: collapse;
 }
 
 .buttonsContainer {
+    display: flex;
+    gap: 12px;
 }
 
+
+
+
 .container {
+
+
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    height: 400px;
+    width: max-content;
 }
 
 .thead {
-}
+    background: #E5E5E5;
 
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    height: 36px;
+    line-height: 16px;
+}
+.thead .nameCol {
+    font-weight:600 ;
+}
 .nameCol {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+
+    padding-left: 17px;
+    width: 297px;
+
+    color: #000000;
 }
 
 .ageCol {
+    font-family: 'Roboto';
+    font-style: normal;
+
+    font-size: 14px;
+    line-height: 16px;
+
+    width: 284px;
+
+    color: #000000;
 }

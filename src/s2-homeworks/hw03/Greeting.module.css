@@ -50,6 +50,8 @@
 }
 
 .button:disabled {
+    cursor: default;
+    opacity: .5;
 }
 
 .text {
