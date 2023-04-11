@@ -1,14 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 .buttonsContainer {
+    display: flex;
+    gap: 21px;
 }
 
 .clock {
 }
 
 .watch {
+
+    width: fit-content;
 }
 
 .watch strong {
 }
 
 .more {
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 8px;
+    margin-bottom: 27px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.5);
 }
